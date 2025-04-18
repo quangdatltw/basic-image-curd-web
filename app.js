@@ -10,16 +10,16 @@ const port = 8080;
 
 // Configure Google Cloud Storage
 const storage = new Storage();
-const bucket = storage.bucket('your-bucket-name'); // Replace with your bucket name
+const bucket = storage.bucket('your-web-app-images'); // Replace with your bucket name
 
 // Configure Multer for file uploads
 const upload = multer({ dest: 'uploads/' });
 
 // Configure Cloud SQL connection
 const sqlConfig = {
-    host: 'your-cloud-sql-public-ip', // Replace with Cloud SQL public IP
+    host: '34.87.111.112', // Replace with Cloud SQL public IP
     user: 'root',
-    password: 'your-password', // Replace with your password
+    password: '123456', // Replace with your password
     database: 'image_db'
 };
 

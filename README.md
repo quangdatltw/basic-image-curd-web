@@ -28,17 +28,17 @@ Change sql config and bucket name
 node app.js
 ```
 
-📸 Usage
-Upload images & view stored files
+## 📸 Usage
+- Upload images & view stored files
 
-🔗 Technologies Used
-Node.js & Express.js
+## 🔗 Technologies Used
+- Node.js & Express.js
 
-Google Cloud Storage, SQL
+- Google Cloud Storage, SQL
 
-EJS for templating
+- EJS for templating
 
-⭐ Contribute & Support
+## ⭐ Contribute & Support
 Feel free to fork this repository, raise issues, and submit pull requests!
 
 If you like the project, star it on GitHub ⭐
